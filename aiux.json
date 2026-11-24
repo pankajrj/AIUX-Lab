@@ -1,0 +1,14 @@
+{
+  "name": "My App",
+  "projectId": "x_saghs_my_app_my_app",
+  "basename": "my-app",
+  "srcDir": "src/lux",
+  "landing": "/home",
+  "createAnalyticsApp": true,
+  "development": {
+    "token": ""
+  },
+  "build": {
+    "exclude": ["**/*.test.js", "**/test/**"]
+  }
+}

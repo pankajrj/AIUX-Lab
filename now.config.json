@@ -1,0 +1,15 @@
+{
+  "scope": "x_saghs_my_app",
+  "scopeId": "4ef46e2266dafaa3c74cbd61ec4bf6ad",
+  "name": "My App",
+  "metadataDir": "src/plugin-xmls",
+  "appOutputDir": "dist-metadata/app",
+  "packageSourceCodeOnInstance": true,
+  "staticContent": {
+    "assets": {
+      "./public/**": {
+        "publicPath": "[$config.aiux.basename]/public"
+      }
+    }
+  }
+}
